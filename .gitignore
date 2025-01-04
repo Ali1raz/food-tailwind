@@ -13,10 +13,12 @@ jspm_packages/
 
 .env
 
-tailwind.config.js
+# 
+# tailwind.config.js 
+tailwind-default.config.js
 postcss.config.js
 
 .DS_Store
 Thumbs.db
 
-public/styles.css
+public/output.css

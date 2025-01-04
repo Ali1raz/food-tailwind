@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    "build-css": "npx tailwindcss -i ./src/styles.css -o ./public/output.css --watch",
+    "start": "live-server public"
   },
   "keywords": [],
   "author": "",
@@ -11,6 +12,10 @@
   "type": "commonjs",
   "description": "",
   "dependencies": {
+    "liveserver": "^0.1.20",
     "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
   }
 }

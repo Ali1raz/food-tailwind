@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Tailwind</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="font-sans text-gray-100 bg-gray-900 h-[100vh]">
+    <div class="w-full md:mx-auto lg:grid lg:grid-cols-4">
+      <header
+        class="shadow-sm p-3 bg-gray-800 w-full lg:col-span-1 lg:h-[100vh]"
+      >
+        <nav
+          class="container flex justify-between items-center lg:flex-col lg:items-start"
+        >
+          <div>
+            <h1 class="text-2xl text-secondary-100">
+              <a href="/">Food-[tailwind]</a>
+            </h1>
+          </div>
+          <ul class="nav__ul-responsive">
+            <li>
+              <a href="#">
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>About</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>More</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="mt-4 mx-2 md:mx-6 lg:col-span-3 lg:mt-4 lg:px-4 lg:my-4">
+        <div class="flex justify-around tracking-wide">
+          <a href="#" class="bg-primary px-4 py-1 rounded-none text-slate-100"
+            >Login</a
+          >
+          <a href="#" class="bg-primary px-4 py-1 rounded-none text-slate-100"
+            >Sign Up</a
+          >
+        </div>
+
+        <div>
+          <h2 class="text-5xl my-3">Recipies</h2>
+          <h3 class="text-2xl">For [Guests]</h3>
+        </div>
+
+        <div class="mt-8">
+          <h3>Latest Recipies</h3>
+
+          <div class="cards-container mt-4">
+            <div class="card">
+              <img
+                class="w-full h-32 sm:h-48 object-cover"
+                src="img/image.png"
+                alt=""
+              />
+              <div class="p-2">
+                <span class="font-semibold block">5 bean Chilli stew</span>
+                <span class="">Recipy by Mario</span>
+              </div>
+
+              <div class="badge text-sm">
+                <span>12</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script>
+      // for (let i = 0; i < 4; i++) {
+      //   document.querySelector(".cards-container").innerHTML += `
+      //     <div class="card">
+      //         <img
+      //           class="w-full h-32 sm:h-48 object-cover"
+      //           src="img/image.png"
+      //           alt=""
+      //         />
+      //         <div class="p-2">
+      //           <span class="font-semibold block">5 bean Chilli stew</span>
+      //           <span class="">Recipy by Mario ${i}</span>
+      //         </div>
+
+      //         <div class="badge text-sm">
+      //           <span>1${i}</span>
+      //         </div>
+      //       </div>
+      //   `;
+      // }
+    </script>
+  </body>
+</html>

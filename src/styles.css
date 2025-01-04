@@ -11,7 +11,7 @@
 }
 
 .badge {
-  @apply bg-red-600 absolute top-2 right-2 shadow-lg rounded-full px-4;
+  @apply bg-red-600 absolute top-2 right-2 shadow-sm shadow-black rounded-full px-4;
 }
 
 .cards-container {
